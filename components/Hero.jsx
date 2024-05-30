@@ -21,7 +21,7 @@ const Hero = () => {
                 <div className='flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left'>
                     <div className='text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]'>Web Developer</div>
                     <h1 className='h1 mb-4'>Hello, my name is Imanuel Raditya</h1>
-                    <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>Bried description with insight into muself, my bachelor joutner, and what I engage in professionally.</p>
+                    <p className='subtitle max-w-[490px] mx-auto xl:mx-0'>I am a third-year student majoring in Information System and Technology who is eager to learn and explore new things especially in the software engineering field backed with a background in data, technology, and business.</p>
                     <div className='flex flex-col gap-y-3 md:flex-row gap-x-3 mx-auto xl:mx-0 mb-12'>
                         <Link href='/contact'>
                             <Button className='gap-x-2'>
@@ -36,7 +36,7 @@ const Hero = () => {
                 </div>
                 <div className='hidden xl:flex relative'>
                     <Badge containerStyles='absolute top-[24%] -left-[5rem]' icon={<RiBriefcase4Fill />} endCountNum={2} badgeText='Years Of Experience' />
-                    <Badge containerStyles='absolute top-[80%] -left-[1rem]' icon={<RiBriefcase4Fill />} endCountNum={5} endCountText='+' badgeText='Finsihed Projects' />
+                    <Badge containerStyles='absolute top-[80%] -left-[1rem]' icon={<RiBriefcase4Fill />} endCountNum={5} endCountText='+' badgeText='Finished Projects' />
                     <div className='bg-hero_shape2_light dark:bg-hero_shape2_dark w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2'></div>
                     <DevImg containerStyles='bg-hero_shape w-[510px] h-[462px] bg-no-repeat relative bg-bottom' imgSrc='/hero/developer.png' />
                 </div>

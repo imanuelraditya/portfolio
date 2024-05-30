@@ -146,7 +146,7 @@ const About = () => {
                             <TabsContent value='personal'>
                                 <div className='text-center xl:text-left'>
                                     <h3 className='h3 mb-4'>Keen Interest in Software</h3>
-                                    <p className='subtitle max-w-xl mx-auto xl:mx-0'>I am a third-year student majoring in Information System and Technology who is eager to learn and explore new things especially in the software engineering field backed with a background in data, technology, and business.</p>
+                                    <p className='subtitle max-w-xl mx-auto xl:mx-0'>With a strong passion for software engineering, I thrive on exploring and mastering new technologies. My background in information systems and technology, combined with a deep interest in data and business, fuels my enthusiasm for developing innovative software solutions. I am driven by the challenge of creating efficient, effective, and elegant code that solves real-world problems and enhances user experience.</p>
                                     <div className='grid xl:grid-cols-2 gap-4 mb-12'>
                                         {infoData.map((data, index) =>  {
                                             return (
